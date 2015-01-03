@@ -18,6 +18,8 @@ Daggerはこういったいわゆる「FactoryFactory クラス」の造りを�
 
 サンプルで用意されたCoffeeMakerアプリでのデモンストレーションです。
 サンプルコードはコンパイルして実行することが可能です。
+サンプルコード:[https://github.com/square/dagger/tree/master/examples/simple/src/main/java/coffee]
+
 
 ### DECLARING DEPENDENCIES
 Daggerはアプリケーションのクラスのインスタンスを作成して、それらの依存関係を満たします。javax.inject.Inject注釈を使って関心のあるコンストラクターやメンバ変数の特定を行います。
