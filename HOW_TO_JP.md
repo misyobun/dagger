@@ -1,3 +1,6 @@
+
+### Introduction
+
 アプリケーションにおいて最良なクラス（the BarcodeDecoder, the KoopaPhysicsEngine, and the AudioStreamerといったようなクラス）は自分の専門的なことを行います。こういったクラスは、恐らくBarcodeCameraFinder, DefaultPhysicsEngine, and an HttpStreamer.といったクラスとの依存関係を持ちます。
 
 対照的にアプリケーションにおける最悪なクラス（BarcodeDecoderFactory, the CameraServiceLoader, and the MutableContextWrapper.といったようなクラス）は、冗長な造りで大したことを行わないクラスです。こういったクラスは関心のあるものを無理矢理いっしょくたに繋ぎ合わせる扱いの難しいダクトテープのようなものでしょう。
